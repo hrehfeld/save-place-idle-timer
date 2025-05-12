@@ -18,6 +18,7 @@
 ;; (save-place-idle-timer-mode 1)
 
 ;;; Code:
+(require 'saveplace)
 
 (defgroup save-place-idle-timer nil
   "Auto-save place using an idle timer."
